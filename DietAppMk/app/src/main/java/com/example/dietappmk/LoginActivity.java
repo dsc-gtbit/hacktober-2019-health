@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void signInBtn(View view) {
 
-        Intent i = new Intent(LoginActivity.this, FullscreenActivity.class);
+        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
         startActivity(i);
 
     }
