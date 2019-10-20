@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HeadacheActivity"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="94dp"
+        android:layout_marginLeft="42dp"
+        android:textColor="#ffffff"
+        android:text="Headache"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="478dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:text="Carbonated beverages 12 oz. (regular and sugar-free): 0 – 50 mg.\n(Colas, unless marked caffeine free, and Mountain Dew are ~ 50 mg)
+Coffee 6 oz.: 100 mg.\n(That means a 12 oz. mug is 200 mg.)\nTea 6 oz.: 30-60 mg.\n(Caffeine increases with length of brew)
+Decaffeinated Tea and Coffee 6 oz.: ~ 2 mg."
+        android:textColor="#ffffff" />
+</LinearLayout>
