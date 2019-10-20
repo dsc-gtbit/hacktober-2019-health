@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BMIActivity"></activity>
+        <activity android:name=".HeadacheActivity"></activity>
+        <activity android:name=".WeightGainActivity" />
+        <activity android:name=".WeightLossActivity" />
+        <activity android:name=".AppointmentActivity" />
+        <activity android:name=".AddDetailActivity" />
+        <activity android:name=".BMIActivity" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home" />
@@ -25,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
     </application>
 
 </manifest>

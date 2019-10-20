@@ -3,6 +3,8 @@ package com.example.dietappmk;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,6 +29,8 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
+
     }
 
     public void jumpToBmi(View view) {
@@ -34,4 +38,32 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+
+    public void addDetail(View view) {
+        Intent i = new Intent(HomeActivity.this, AddDetailActivity.class);
+        startActivity(i);
+
+    }
+
+    public void appointment(View view) {
+        Intent i = new Intent(HomeActivity.this, AppointmentActivity.class);
+        startActivity(i);
+
+    }
+
+    public void headAche(View view) {
+        Intent i = new Intent(HomeActivity.this, HeadacheActivity.class);
+        startActivity(i);
+    }
+
+    public void weightGain(View view) {
+        Intent i = new Intent(HomeActivity.this, WeightGainActivity.class);
+        startActivity(i);
+    }
+
+    public void weightLoss(View view) {
+        Intent i = new Intent(HomeActivity.this, WeightLossActivity.class);
+        startActivity(i);
+    }
+
 }
